@@ -17,22 +17,37 @@ This text editor app is a single-page application that runs in the browser and m
 
 To build this text editor, I implemented methods for getting and storing data to an IndexedDB database. I used a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
+`This application`:
+
+* Uses IndexedDB to create an object store and includes both GET and PUT methods
+
+* Works without an internet connection
+
+* Automatically saves content inside the text editor when the DOM window is unfocused
+
+* Is bundled with webpack
+
+* Creates a service worker with workbox that Caches static assets
+
+* Uses babel in order to use async / await
+
+* Has a generated `manifest.json` using the `WebpackPwaManifest` plug-in
+
+* Can be installed as a Progressive Web Applicatio
+
 
 `Technologies used:`
 
 - JavaScript
 - Node.js
 - Express.js
-- NoSQL: MongoDB ??
-- Mongoose ??
 - NPM 
-- Nodemon ??
+- Nodemon
 - Webpack
 - Service worker 
 - Babel
 - Manifest.json
 - IndexedDB
-- Rest API ??
 - Heroku
 
 ## [Final Result](#table-of-contents)
@@ -48,12 +63,12 @@ To build this text editor, I implemented methods for getting and storing data to
 
 ## [Installation](#installation)
 
-1. Install Node.js and MongoDB on your machine.
+1. Install Node.js on your machine.
 2. Clone the repository to your local system.
 3. Open the repository in your preferred code editor.
 4. Install the required dependencies by running the following command in the terminal:
 
-> package.json: npm i
+> npm i
 
 5. Start the app by running the following command in your terminal: 
 
@@ -79,5 +94,5 @@ Licenced under:
 
 ## [Contact Me](#table-of-contents)
 
-- [GitHub](https://github.com/cdrcar)
+- [GitHub: cdrcar](https://github.com/cdrcar)
 
