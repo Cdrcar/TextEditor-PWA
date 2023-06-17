@@ -70,9 +70,11 @@ To build this text editor, I implemented methods for getting and storing data to
 
 > npm i
 
-5. Start the app by running the following command in your terminal: 
+5. Start the app by running the following command in your terminal, this command will start both the server and the webpack development server concurrently, allowing you to see the application in your browser: 
 
-> npm start
+> npm run start:dev
+
+6. Once the development server is running, you should be able to access the application by opening your web browser and navigating to the specified URL: http://localhost:3000 .
 
 ## [Usage](#table-of-contents)
 
