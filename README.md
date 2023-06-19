@@ -7,7 +7,6 @@ Text editor that runs in the browser following the PWA criteria
 - [Final Result](#final-result)
 - [Deployment](#deployment)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Contact Me](#contact)
 
@@ -33,7 +32,7 @@ To build this text editor, I implemented methods for getting and storing data to
 
 * Has a generated `manifest.json` using the `WebpackPwaManifest` plug-in
 
-* Can be installed as a Progressive Web Applicatio
+* Can be installed as a Progressive Web Application
 
 
 `Technologies used:`
@@ -76,13 +75,6 @@ To build this text editor, I implemented methods for getting and storing data to
 
 6. Once the development server is running, you should be able to access the application by opening your web browser and navigating to the specified URL: http://localhost:3000 .
 
-## [Usage](#table-of-contents)
-
-To use this social network app, follow these steps:
-
-1. Make sure the application is running by executing npm start.
-2. Access the application through Insomnia.
-3. Use an API development environment (e.g., Insomnia) to test the API routes using various HTTP request methods such as GET, POST, PUT, and DELETE:
 
 
 ## [License](#table-of-contents)
