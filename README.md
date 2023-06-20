@@ -58,7 +58,7 @@ To build this text editor, I implemented methods for getting and storing data to
 
 ## [Deployment](#deployment)
 
-[Link to web app]()
+[Link to web app](https://another-text-6df59f26a1f0.herokuapp.com/)
 
 ## [Installation](#installation)
 
