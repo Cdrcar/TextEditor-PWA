@@ -43,13 +43,18 @@ export const getDb = async () => {
     const store = tx.objectStore('jate');// Open the object store
 
     const request = store.getAll(); // Retrieve all data from the object store
+    console.log(request);
 
     let response = await request; // Wait for the getAll operation to complete and obtain the response
+    console.log(response)
 
-    response = response.map((entry) => entry.value); // Extract the 'value' property from each object in the response
+    response = await response.map(entry => entry.value) 
+    // response = response.join(''); // Extract the 'value' property from each object in the response
 
     console.info('Getting all data from the database');
-    return response;
+    console.log("Test",response)
+    return response [0];
+    
   } catch (error) {
     console.error('Error occurred while retrieving data from the database:', error);
     throw error;
