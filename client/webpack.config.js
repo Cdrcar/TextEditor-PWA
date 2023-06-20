@@ -2,6 +2,8 @@
 
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //simplifies the creation of HTML files that serve as entry points
 const WebpackPwaManifest = require('webpack-pwa-manifest'); // generates a web app manifest file
+const path = require('path');
+const { InjectManifest } = require('workbox-webpack-plugin');
 
 // Add and configure workbox plugins for a service worker and manifest file.
 
