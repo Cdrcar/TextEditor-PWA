@@ -54,6 +54,8 @@ To build this text editor, I implemented methods for getting and storing data to
 ![jate](./assets/jate.png)
 ![service-worker](./assets/service-worker.png)
 ![manifest-app](./assets/manifest-app.png)
+![install](./assets/inst.png)
+![app](./assets/app.png)
 
 
 ## [Deployment](#deployment)
