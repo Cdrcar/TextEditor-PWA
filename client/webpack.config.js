@@ -28,7 +28,7 @@ module.exports = () => {
         swSrc: './src/src-sw.js',
         swDest: 'sw.js'
       }),
-      new WebpackPwaManifest({ //used to generate a web app manifest file (manifest.json) for the PWA. It allows you to specify various properties such as the app's name, description, icons, colors, and starting URL
+      new WebpackPwaManifest({ //used to generate a web app manifest file (manifest.json) for the PWA. It allows you to specify various properties such as the app's name, description, icons, colors, and starting URL. The manifest file will be used by browsers and platforms to understand and treat the web app as an installable PWA. It enables features like adding the app to the home screen, launching it in a standalone window, and controlling how the app appears when launched
         name: 'JATE(Text-editor)',
         short_name: 'JATE',
         description: 'Just Another Text Editor',
