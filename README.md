@@ -65,9 +65,9 @@ To build this text editor, I implemented methods for getting and storing data to
 1. Install Node.js on your machine.
 2. Clone the repository to your local system.
 3. Open the repository in your preferred code editor.
-4. Install the required dependencies by running the following command in the terminal:
+4. Install the required dependencies from the root directory by running the following command in the terminal:
 
-> npm i
+> npm i && npm run build
 
 5. Start the app by running the following command in your terminal, this command will start both the server and the webpack development server concurrently, allowing you to see the application in your browser: 
 
